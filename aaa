@@ -226,7 +226,6 @@ UIS.InputBegan:connect(function(Input, GPE)
         repeat
             wait(0.01)
         Camera.CFrame = CFrame.new(Camera.CFrame.p, lookthat.Position + Vector3.new(1, 50, 0)) 
-       game:GetService("workspace").LOLSHITGAMELMA.Playing = true
         print(magnitudee)
         until Holding == false
     end
