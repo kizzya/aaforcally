@@ -225,7 +225,7 @@ UIS.InputBegan:connect(function(Input, GPE)
         Holding = true
         repeat
             wait(0.01)
-        Camera.CFrame = CFrame.new(Camera.CFrame.p, lookthat.Position + Vector3.new(1, 85, 0)) 
+        Camera.CFrame = CFrame.new(Camera.CFrame.p, lookthat.Position + Vector3.new(1, 47, 0)) 
         print(magnitudee)
         until Holding == false
     end
